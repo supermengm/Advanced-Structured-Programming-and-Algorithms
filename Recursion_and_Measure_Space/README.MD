@@ -32,3 +32,24 @@ public class Test
 ### Questions:
 - Please determine the bytecode size of the following Java program
 - Please calculate the minimum RAM size required to run this Java program.
+
+## C Program space complexity
+```java
+int i =2;
+void f(int j) {
+  j = i + 2;
+}
+void main()
+{
+   int k = 3;
+   static c = '4';
+
+   {
+      int m = i;
+   }
+   f(k);
+}
+```
+### Questions:
+- Please determine the executable code size
+- Please calculate the minimum RAM size required to run this C program on a 32-bit machine
